@@ -80,6 +80,6 @@
                 (global::System.DateTime dt1, global::System.DateTime dt2) => dt1 <= dt2,
                 (global::System.DateTime dt1, global::System.DateTime dt2) => dt1 > dt2,
                 (global::System.DateTime dt1, global::System.DateTime dt2) => dt1 >= dt2,
-        }.ToReadOnly();
-        }
+        };
+    }
 }
